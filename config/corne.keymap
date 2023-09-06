@@ -8,8 +8,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define BASE 0
-
 
 / {
         keymap {
@@ -27,8 +25,8 @@
         //│  SPACE         Z          │  X           │  C            │  V            │  B       │   │  N            │  M            │ , <           │  . >          │  ? /            │ SPACE
              &kp SPACE     &kp Z          &mt RALT X     &kp C          &kp V           &kp B         &kp N            &kp M          &kp COMMA        &mt RALT DOT    &kp SLASH        &kp SPACE
         //╰─────────────┴────────────┴──────────────┴──────────────┼────────────────┼──────────┤   ├───────────────┼───────────────┼───────────────┴───────────────┴──────────────────┴───────────────╯
-                                          &kp ESC       &kp SPACE         &kp TAB        &kp RETURN      &kp BSPC        &kp DEL
-        //                             ╰──────────────┴────────────────┴──────────╯   ╰───────────────┴───────────────┴───────────────╯
+                                                      &kp ESC       &kp SPACE         &kp TAB         &kp RETURN      &kp BSPC        &kp DEL
+        //                                          ╰──────────────┴────────────────┴──────────╯   ╰───────────────┴───────────────┴───────────────╯
             >;
         };
 
