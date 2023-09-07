@@ -21,7 +21,7 @@
             bindings
                 = <&macro_press &kp RALT>
                 , <&macro_tap &kp DOUBLE_QUOTES &kp a>
-                , <&macro_release &kp LALT>
+                , <&macro_release &kp RALT>
                 ;
         };
     };
