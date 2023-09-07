@@ -14,17 +14,6 @@
 // small ä on us windows
 / {
     macros {
-        zed_aelinux_kay: zed_aelinux_kay {
-            label = "ZM_zed_aelinux_kay";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp RALT>
-                , <&macro_tap &kp DOUBLE_QUOTES &kp a>
-                , <&macro_release &kp RALT>
-                ;
-        };
-
         zed_ae_kay: zed_ae_kay {
             label = "ZM_zed_ae_kay";
             compatible = "zmk,behavior-macro";
@@ -65,7 +54,7 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB    &kp N1   &kp N2       &kp N3        &zed_aelinux_kay        &zed_ae_kay         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
+   &kp TAB    &kp N1   &kp N2       &kp N3        &kp N4        &zed_ae_kay         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
    &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
                         >;
