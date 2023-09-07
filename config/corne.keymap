@@ -19,9 +19,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp KP_NUMBER_1 &kp KP_NUMBER_3 &kp KP_NUMBER_2>
-                , <&macro_release &kp LALT>
+                = <&macro_press &tog MEDIA>
+                , <&macro_tap &kp LGUI &kp SPACE>
                 ;
         };
     };
@@ -43,7 +42,7 @@
    &kp TAB      &kp Q         &kp W         &kp E          &kp R           &kp T       &kp Y    &kp U            &kp I           &kp O           &kp P            &kp BSPC
    &kp LCTRL    &mt LGUI A    &mt LALT S    &mt LCTRL D    &mt LSHIFT F    &kp G       &kp H    &mt LSHIFT J     &mt LCTRL K     &mt LALT L      &mt LGUI SEMI    &kp SQT
    &kp LSHFT    &kp Z         &kp X         &kp C          &kp V           &kp B       &kp N    &kp M            &kp COMMA       &kp DOT         &kp FSLH         &kp ESC
-                                                 &lt MEDIA ESC &kp SPACE &kp TAB       &kp RET &kp BSPC &kp RETURN
+                                                 &lt MEDIA ESC &kp SPACE &kp TAB       &kp RET &kp BSPC &zed_ae_kay
                         >;
                 };
                 media_layer {
@@ -54,7 +53,7 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB    &kp N1   &kp N2       &kp N3        &kp N4        &zed_ae_kay         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
+   &kp TAB    &kp N1   &kp N2       &kp N3        &kp SEMI        &zed_ae_kay         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
    &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
                         >;
