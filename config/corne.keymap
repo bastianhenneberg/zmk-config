@@ -24,11 +24,7 @@
                 , <&macro_release &kp RALT>
                 ;
         };
-    };
-};
 
-/ {
-    macros {
         zed_ae_kay: zed_ae_kay {
             label = "ZM_zed_ae_kay";
             compatible = "zmk,behavior-macro";
@@ -41,6 +37,7 @@
         };
     };
 };
+
 
 / {
         keymap {
