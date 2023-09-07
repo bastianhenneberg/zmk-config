@@ -19,7 +19,7 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LALT>
-                , <&macro_tap &kp Z &kp M &kp K>
+                , <&macro_tap &kp KP_NUMBER_1 &kp KP_NUMBER_3 &kp KP_NUMBER_8>
                 , <&macro_release &kp LALT>
                 ;
         };
