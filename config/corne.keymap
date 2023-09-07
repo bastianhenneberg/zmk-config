@@ -11,6 +11,7 @@
 #define BASE 0
 #define MEDIA 1
 
+// small ä on us windows
 / {
     macros {
         zed_em_kay: zed_em_kay {
