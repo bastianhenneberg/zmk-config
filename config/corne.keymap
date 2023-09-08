@@ -15,7 +15,7 @@
 #define SYM 4
 #define GER 5
 #define FUN 6
-#define CLEAR 7
+#define CLR 7
 
 // Toggle German Layer
 / {
@@ -156,7 +156,7 @@
                 };
 
                 clear_layer {
-                        label = "CLEAR";
+                        label = "CLR";
                         bindings = <
 // ╭────────────────┬────────────────┬────────────────┬────────────────┬────────────────┬────────────────╮   ╭────────────────┬────────────────┬────────────────┬────────────────┬────────────────┬────────────────╮
      &none            &none            &none            &none            &none            &none                &none            &none            &none            &none            &none            &none
